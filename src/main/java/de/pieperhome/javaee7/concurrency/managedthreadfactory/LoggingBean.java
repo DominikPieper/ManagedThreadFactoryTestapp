@@ -5,7 +5,7 @@ import javax.ejb.Stateless;
 import javax.enterprise.concurrent.ManagedThreadFactory;
 import javax.inject.Named;
 
-@Named("startUselessLoggingBean")
+@Named("LoggingBean")
 @Stateless
 public class LoggingBean {
 	
